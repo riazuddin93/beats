@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.topnav{
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  img{
+    width: 36px;
+    height: auto;
+  }
+  ul{
+    display: flex;
+  
+  }
+  ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 620;
+    text-transform: capitalize;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #icon{
+    color: red;
+    width: 26px;
+    height: 26px;
+  }
+  .navcontent{
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+.bottomnav{
+    width: 100%;
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomnav h1{
+    color: white;
+    font-size: 18px;
+}
+.hero{
+    width: 100%;
+    height: 900px;
+    background: url('beatshero3.jpg') no-repeat center/cover;
+}
+.contents{
+    padding: 300px 60px;
+}
+
+#herotitle{
+    font-size: 64px;
+    text-transform: capitalize;
+}
+#herop{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#shopbtn{
+    width: 110px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    background: black;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+#watchbtn{
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 800;
+    color: black;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+.cards {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 950px;
+    
+    padding-top: 50px;
+}
+
+#cardstitle{
+    color: black;
+    text-transform: capitalize;
+    padding-top: 80px;
+    font-size: 38px;
+}
+.cardsimgs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;    
+    padding: 0 100px;
+   
+    margin-top: 50px; 
+   
+}
+.cardsimgs .card{
+    background: white;
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding: 0 30px;
+    height: 520px;
+    font-size: 12px;
+}
+.cardsimgs img{
+    padding: 60px 50px;
+    width: 350px;
+    gap: 5px;
+    
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.card{
+    box-shadow: 2px 2px 8px #bdbdbd;
+}
+.card h1{
+    padding-top: 40px;
+}
+.circles{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    
+}
+#circle1{
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   background: #2b2b2b;
+}
+#circle2{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: #382925;
+ }
+ #circle3{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: #26263d;
+ }
+ #circle4{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: #d8cfc8;
+ }
+
+ .banner{
+    width: 100%;
+    height: 700px;
+    background: url('beatshero4.jpg') no-repeat center/cover;
+ }
+ #shop2{
+    width: 110px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 800;
+    color: black;
+    background: white;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border: red;
+}
+#watch2{
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 800;
+    color: black;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: red;
+
+}
+.contents2{
+    padding: 50px 50px;
+
+}
+
+.contents2 h1{
+    font-size: 72px;
+}
+
+.cards2{
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 950px;
+    
+    padding-top: 50px;
+}
+
+.cards2imgs{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.cards2imgs .card2{
+    background: white;
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding: 0 30px;
+    height: 520px;
+    font-size: 12px;
+}
+.cards2imgs img{
+    padding: 60px 50px;
+    width: 300px;
+    gap: 15px;
+    
+}
+
+.card2 h1{
+    padding-top: 60px;
+}
+.card2{
+    box-shadow: 1px 1px 15px #bdbdbd;
+}
+
+.banner2{
+    width: 100%;
+    height: 600px;
+    background: url('beatshero2.jpg') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner2 h1{
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+}
+#regbtn{
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 800;
+    color: black;
+    background: white;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.banner2contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* seamless  */
+
+.seamless{
+    background: white;
+    height: 450px;
+}
+.seamless h1{
+    padding-top: 40px;
+    text-transform: capitalize;
+}
+.seamlesscards{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 150px;
+}
+.seamless-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seamlesscards .seamless-card img{
+    width: 70px;
+}
+.seamlesscards .seamless-card h2{
+    padding-top: 20px;
+}
+.seamlesscards .seamless-card p{
+    padding-top: 10px;
+}
+.seamlesscards .seamless-card a{
+    text-transform: capitalize;
+    font-size: 24px;
+    color: black;
+    padding-top: 10px;
+}
+
+@media(max-width: 1200px){
+    .cardsimgs{
+        grid-template-columns: repeat(2, 2fr);
+
+    }
+    .cards{
+        height: 1800px;
+    }
+}
+@media(max-width: 900px){
+.cardsimgs{
+    grid-template-columns: repeat(1, 1fr);
+}
+.cardsimgs .card{
+    width: 450px;
+}
+}

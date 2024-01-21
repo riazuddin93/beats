@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Gallery</title>
+  <link rel="stylesheet" href="productstyle.css">
+</head>
+<body>
+  <!-- nav -->
+  <div class="topnav">
+    <div class="navcontent">
+    <img src="logo.png" alt="logo">
+    <ul>
+        <li>shop</li>
+        <li>support</li>
+    </ul>
+    <i class="fas fa-rocket" id="icon"></i>
+</div>
+</div>
+<div class="bottomnav"><h1>fast free delivery</h1></div>
+  <!-- rest -->
+  <div class="container">
+    <div class="thumb-container">
+      <img class="thumb active" src="images/thumb6.jpg" alt="thumb-img">
+      <img class="thumb" src="images/thumb7.jpg" alt="thumb-img">
+      <img class="thumb" src="images/thumb8.jpg" alt="thumb-img">
+      <img class="thumb" src="images/thumb9.jpg" alt="thumb-img">
+      <img class="thumb" src="images/thumb10.jpg" alt="thumb-img">
+    </div>
+    
+    <div class="main-container">
+      <img class="main-image" src="images/thumb6.jpg" alt="main-img">
+      
+      <div class="product-info">
+        <h1>beats studio pro</h1>
+        <p>iconic sound</p>
+        <h3>£349.99</h3>
+        <button class="add-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    const thumbImages = document.querySelectorAll(".thumb");
+
+    thumbImages.forEach(img => {
+      img.addEventListener("click", () => {
+        document.querySelector(".thumb-container .active").classList.remove("active");
+        img.classList.add("active");
+        document.querySelector(".main-image").src = img.src;
+      });
+    });
+
+    document.querySelector(".add-cart-btn").addEventListener("click", () => {
+      alert("Item added to cart!");
+    });
+  </script>
+</body>
+</html>
